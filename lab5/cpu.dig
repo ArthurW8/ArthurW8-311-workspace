@@ -156,7 +156,7 @@
           </testData>
         </entry>
       </elementAttributes>
-      <pos x="-120" y="0"/>
+      <pos x="-100" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>ROM</elementName>
@@ -340,11 +340,6 @@
       <pos x="180" y="580"/>
     </visualElement>
     <visualElement>
-      <elementName>control-unit.dig</elementName>
-      <elementAttributes/>
-      <pos x="-160" y="740"/>
-    </visualElement>
-    <visualElement>
       <elementName>register-file.dig</elementName>
       <elementAttributes/>
       <pos x="-360" y="580"/>
@@ -461,6 +456,11 @@
       </elementAttributes>
       <pos x="-380" y="680"/>
     </visualElement>
+    <visualElement>
+      <elementName>control-unit.dig</elementName>
+      <elementAttributes/>
+      <pos x="-160" y="740"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -504,12 +504,12 @@
       <p2 x="-60" y="460"/>
     </wire>
     <wire>
-      <p1 x="-100" y="780"/>
-      <p2 x="-60" y="780"/>
-    </wire>
-    <wire>
       <p1 x="-180" y="780"/>
       <p2 x="-160" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="780"/>
+      <p2 x="-60" y="780"/>
     </wire>
     <wire>
       <p1 x="520" y="400"/>
@@ -572,12 +572,12 @@
       <p2 x="720" y="420"/>
     </wire>
     <wire>
-      <p1 x="-100" y="740"/>
-      <p2 x="160" y="740"/>
-    </wire>
-    <wire>
       <p1 x="-180" y="740"/>
       <p2 x="-160" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="740"/>
+      <p2 x="160" y="740"/>
     </wire>
     <wire>
       <p1 x="380" y="360"/>
@@ -692,12 +692,12 @@
       <p2 x="-220" y="600"/>
     </wire>
     <wire>
-      <p1 x="-60" y="640"/>
-      <p2 x="-60" y="780"/>
-    </wire>
-    <wire>
       <p1 x="-60" y="800"/>
       <p2 x="-60" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="640"/>
+      <p2 x="-60" y="780"/>
     </wire>
     <wire>
       <p1 x="540" y="120"/>
