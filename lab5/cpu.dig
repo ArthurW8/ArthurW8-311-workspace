@@ -321,9 +321,14 @@
       <pos x="-440" y="720"/>
     </visualElement>
     <visualElement>
-      <elementName>PriorityEncoder</elementName>
+      <elementName>alu.dig</elementName>
       <elementAttributes/>
-      <pos x="-260" y="620"/>
+      <pos x="-340" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>control-unit.dig</elementName>
+      <elementAttributes/>
+      <pos x="20" y="760"/>
     </visualElement>
   </visualElements>
   <wires>
